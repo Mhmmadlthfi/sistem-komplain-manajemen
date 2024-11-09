@@ -1,0 +1,36 @@
+.border-right-md {
+    border-right: 1px solid #dee2e6;
+}
+
+@media (max-width: 766px) {
+    .border-bottom-md {
+        border-bottom: 1px solid #dee2e6;
+        /* margin-top: 0.25rem; */
+    }
+
+    .border-right-md {
+        border-right: none;
+    }
+
+    .set-mt {
+        margin-top: 1rem;
+    }
+
+    .set-mb {
+        margin-bottom: 1rem;
+    }
+
+    .set-mt-btn {
+        margin-top: 1.5rem;
+    }
+
+    .set-mt-filter {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 576px){
+    .set-mt-filter {
+        margin-top: 0.5rem;
+    }
+}

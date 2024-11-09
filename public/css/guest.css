@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row.flex-grow-1 {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.left-panel {
+    background-color: white;
+    padding: 30px;
+    border-right: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.right-panel {
+    padding: 30px;
+    flex: 1;
+    overflow-y: auto; 
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-title {
+    margin-bottom: 30px;
+}
+
+.company-logo {
+    width: 200px; /* Perbesar ukuran logo */
+    margin-bottom: 20px;
+}
+
+.company-info {
+    margin-bottom: 20px;
+}
+
+.company-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.company-info h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: gray;
+}
+
+.check-link {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .row.flex-grow-1 {
+        flex-direction: column;
+    }
+
+    .left-panel {
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+        padding: 20px;
+    }
+}
