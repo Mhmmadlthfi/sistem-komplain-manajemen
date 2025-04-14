@@ -1,0 +1,223 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Handling;
+use App\Models\Complaint;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+class HandlingSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $handlings = [
+            [
+                "complaint_id" => 1,
+                "sale_id" => 1,
+                "user_id" => 4,
+                "handling_date" => "2024-05-11",
+                "initial_condition" => "Gangguan pada konektor listrik utama.",
+                "action" => "Mengganti konektor listrik utama.",
+                "repair_result" => "Konektor listrik utama telah diganti dan berfungsi normal.",
+                "repair_notes" => "Pemeriksaan lebih lanjut diperlukan untuk memastikan kestabilan.",
+                "repair_evidence" => "handling-repair_evidence/complaint1.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 2,
+                "sale_id" => 2,
+                "user_id" => 5,
+                "handling_date" => "2024-05-21",
+                "initial_condition" => "Tidak dapat menyala setelah penggunaan beberapa kali.",
+                "action" => "Mengganti komponen internal yang rusak.",
+                "repair_result" => "Produk berhasil dinyalakan dan berfungsi normal.",
+                "repair_notes" => "Diperlukan pemantauan lebih lanjut.",
+                "repair_evidence" => "handling-repair_evidence/complaint2.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 3,
+                "sale_id" => 3,
+                "user_id" => 4,
+                "handling_date" => "2024-05-31",
+                "initial_condition" => "Kerusakan setelah penggunaan jangka panjang.",
+                "action" => "Perbaikan dan penggantian komponen rusak.",
+                "repair_result" => "Perbaikan berhasil dilakukan dan produk berfungsi kembali.",
+                "repair_notes" => "Perlu pengecekan berkala.",
+                "repair_evidence" => "handling-repair_evidence/complaint3.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 4,
+                "sale_id" => 4,
+                "user_id" => 5,
+                "handling_date" => "2024-06-04",
+                "initial_condition" => "Kabel terputus menyebabkan gangguan koneksi listrik.",
+                "action" => "Memperbaiki sambungan kabel.",
+                "repair_result" => "Koneksi listrik telah pulih dan stabil.",
+                "repair_notes" => "Periksa sambungan kabel secara berkala.",
+                "repair_evidence" => "handling-repair_evidence/complaint4.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 5,
+                "sale_id" => 5,
+                "user_id" => 4,
+                "handling_date" => "2024-06-07",
+                "initial_condition" => "Tidak sesuai dengan spesifikasi listrik.",
+                "action" => "Mengganti produk dengan spesifikasi yang sesuai.",
+                "repair_result" => "Produk baru sesuai dengan spesifikasi yang diinginkan.",
+                "repair_notes" => "Penting untuk memverifikasi spesifikasi produk sebelum pengiriman.",
+                "repair_evidence" => "handling-repair_evidence/complaint5.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 6,
+                "sale_id" => 6,
+                "user_id" => 5,
+                "handling_date" => "2024-06-11",
+                "initial_condition" => "Penggunaan tidak optimal, membutuhkan perbaikan.",
+                "action" => "Penyesuaian dan kalibrasi produk.",
+                "repair_result" => "Produk berfungsi dengan optimal setelah penyesuaian.",
+                "repair_notes" => "Diperlukan kalibrasi rutin.",
+                "repair_evidence" => "handling-repair_evidence/complaint6.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 7,
+                "sale_id" => 7,
+                "user_id" => 4,
+                "handling_date" => "2024-06-14",
+                "initial_condition" => "Kerusakan fisik akibat kecelakaan.",
+                "action" => "Perbaikan fisik dan penggantian komponen yang rusak.",
+                "repair_result" => "Produk telah diperbaiki dan berfungsi kembali.",
+                "repair_notes" => "Hati-hati saat penanganan produk.",
+                "repair_evidence" => "handling-repair_evidence/complaint7.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 8,
+                "sale_id" => 8,
+                "user_id" => 5,
+                "handling_date" => "2024-06-16",
+                "initial_condition" => "Tidak terdeteksi oleh sistem listrik.",
+                "action" => "Pengecekan dan perbaikan sistem deteksi.",
+                "repair_result" => "Produk kini terdeteksi oleh sistem listrik.",
+                "repair_notes" => "Lakukan pengecekan sistem deteksi secara rutin.",
+                "repair_evidence" => "handling-repair_evidence/complaint8.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 9,
+                "sale_id" => 9,
+                "user_id" => 4,
+                "handling_date" => "2024-06-21",
+                "initial_condition" => "Membutuhkan perbaikan setelah pemakaian intensif.",
+                "action" => "Perbaikan dan pembersihan produk.",
+                "repair_result" => "Produk berfungsi normal setelah perbaikan.",
+                "repair_notes" => "Periksa dan bersihkan secara rutin.",
+                "repair_evidence" => "handling-repair_evidence/complaint9.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 10,
+                "sale_id" => 10,
+                "user_id" => 5,
+                "handling_date" => "2024-06-24",
+                "initial_condition" => "Gangguan pada sistem pengisian daya.",
+                "action" => "Perbaikan sistem pengisian daya.",
+                "repair_result" => "Sistem pengisian daya berfungsi normal.",
+                "repair_notes" => "Periksa sistem pengisian daya secara berkala.",
+                "repair_evidence" => "handling-repair_evidence/complaint10.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 11,
+                "sale_id" => 11,
+                "user_id" => 4,
+                "handling_date" => "2024-06-26",
+                "initial_condition" => "Kinerja produk tidak optimal.",
+                "action" => "Peningkatan performa dan pemeliharaan.",
+                "repair_result" => "Kinerja produk telah diperbaiki.",
+                "repair_notes" => "Lakukan pemeliharaan secara berkala.",
+                "repair_evidence" => "handling-repair_evidence/complaint11.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 12,
+                "sale_id" => 12,
+                "user_id" => 5,
+                "handling_date" => "2024-07-03",
+                "initial_condition" => "Gangguan pada pengendalian arus listrik.",
+                "action" => "Perbaikan pada sistem pengendalian arus.",
+                "repair_result" => "Pengendalian arus listrik berfungsi kembali.",
+                "repair_notes" => "Lakukan pengecekan berkala pada sistem.",
+                "repair_evidence" => "handling-repair_evidence/complaint12.pdf",
+                "status" => "Sudah diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 13,
+                "sale_id" => 13,
+                "user_id" => 4,
+                "handling_date" => "2024-07-11",
+                "initial_condition" => "Kerusakan berat pada komponen utama.",
+                "action" => "Tidak dapat diperbaiki; rekomendasi untuk penggantian.",
+                "repair_result" => "Komponen utama rusak berat dan tidak dapat diperbaiki.",
+                "repair_notes" => "Rekomendasi penggantian komponen.",
+                "repair_evidence" => "handling-repair_evidence/complaint13.pdf",
+                "status" => "Tidak dapat diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 14,
+                "sale_id" => 14,
+                "user_id" => 5,
+                "handling_date" => "2024-07-19",
+                "initial_condition" => "Kerusakan fatal pada sistem.",
+                "action" => "Tidak dapat diperbaiki; perlu penggantian unit.",
+                "repair_result" => "Sistem mengalami kerusakan fatal dan tidak dapat diperbaiki.",
+                "repair_notes" => "Penggantian unit disarankan.",
+                "repair_evidence" => "handling-repair_evidence/complaint14.pdf",
+                "status" => "Tidak dapat diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+            [
+                "complaint_id" => 15,
+                "sale_id" => 15,
+                "user_id" => 4,
+                "handling_date" => "2024-07-26",
+                "initial_condition" => "Gangguan pada sistem kontrol yang kompleks.",
+                "action" => "Tidak dapat diperbaiki; sistem memerlukan penggantian.",
+                "repair_result" => "Sistem kontrol mengalami kerusakan serius dan tidak dapat diperbaiki.",
+                "repair_notes" => "Penggantian sistem kontrol dianjurkan.",
+                "repair_evidence" => "handling-repair_evidence/complaint15.pdf",
+                "status" => "Tidak dapat diperbaiki",
+                "handling_location" => "-7.815168 110.3527936",
+            ],
+        ];
+
+        foreach ($handlings as $handling) {
+            Handling::create($handling);
+        }
+
+        $complaintIds = array_column($handlings, 'complaint_id');
+        Complaint::whereIn('id', $complaintIds)->update(['status' => 'Diproses']);
+    }
+}
