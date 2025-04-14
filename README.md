@@ -146,13 +146,15 @@ Berikut adalah informasi login untuk mencoba masing-masing role pada sistem (kec
     -   Anda dapat login menggunakan akun demo di atas untuk menjelajahi fitur aplikasi web dari masing-masing user.
     -   Tidak tersedia fitur untuk pelanggan login, pelanggan hanya mengisi form keluhan yang sudah disediakan [disini](https://helloluthfiii.my.id/aftersales/guest)
     -   Untuk Demo alur data dari mulai pelanggan mengajukan keluhan sampai keluhan itu selesai ditangani, anda dapat menggunakan data yang ada dibawah ini supaya datanya valid karena data keluhan yang diinputkan harus terdapat pada database penjualan, jika tidak ada maka data yang diajukan tidak akan valid.
+
         -   No Seri Produk : SN031
         -   Lokasi : Kecamatan Gamping
         -   Nama Institusi : PLN Sleman
+
             selain data tersebut, bisa bebas anda isi sesuai keinginan anda. silahkan, dapat dimulai dari pengajuan keluhan sebagai [pelanggan](https://helloluthfiii.my.id/aftersales/guest).
 
 -   📱 **Aplikasi Android (Mobile)**:
-    -   Untuk dapat menjalankan aplikasi Android, bisa dilihat pada dokumentasi repository aplikasi mobile di [sini](https://github.com/username/repo-mobile).
+    -   Untuk dapat menjalankan aplikasi Android, bisa dilihat pada dokumentasi repository aplikasi mobile di [sini](https://github.com/Mhmmadlthfi/sistem-komplain-manajemen-mobile.git#readme).
     -   Role yang bisa mengakses aplikasi Android: **Teknisi** saja.
 
 ---
