@@ -124,7 +124,7 @@ Berikut adalah informasi login untuk mencoba masing-masing role pada sistem (kec
 
 ### 📄 **Contoh Data untuk Mencoba Fitur Pengajuan Keluhan**
 
-Untuk mencoba alur data dari awal (pelanggan mengajukan keluhan) hingga akhir (keluhan ditangani oleh teknisi), pastikan **mengisi data yang valid**. Gunakan data berikut agar keluhan dapat diterima sistem karena datanya sudah tercatat dalam database penjualan:
+Untuk mencoba alur data dari awal (pelanggan mengajukan keluhan) hingga akhir (keluhan ditangani oleh teknisi kemudian diselesaikan oleh staff aftersales), pastikan **mengisi data yang valid**. Gunakan data berikut agar keluhan dapat diterima sistem karena datanya sudah tercatat dalam database penjualan:
 
 -   **No Seri Produk:** `SN031`
 -   **Lokasi:** `Kecamatan Gamping`
