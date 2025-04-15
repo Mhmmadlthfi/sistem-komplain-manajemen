@@ -111,19 +111,32 @@ Berikut adalah informasi login untuk mencoba masing-masing role pada sistem (kec
 
 ## 🌐 Demo Aplikasi
 
--   🔗 **Aplikasi Web**: [https://helloluthfiii.my.id/aftersales/admin](https://helloluthfiii.my.id/aftersales/admin)
+### 🔗 **Akses Aplikasi Web**
 
-    -   Anda dapat login menggunakan akun demo di atas untuk menjelajahi fitur aplikasi web dari masing-masing user.
-    -   Tidak tersedia fitur untuk pelanggan login, pelanggan hanya mengisi form keluhan yang sudah disediakan [disini](https://helloluthfiii.my.id/aftersales/guest)
-    -   Untuk Demo alur data dari mulai pelanggan mengajukan keluhan sampai keluhan itu selesai ditangani, anda dapat menggunakan data yang ada dibawah ini supaya datanya valid karena data keluhan yang diinputkan harus terdapat pada database penjualan, jika tidak ada maka data yang diajukan tidak akan valid.
+-   **Admin & Petugas** dapat mengakses aplikasi web melalui link berikut:  
+    [https://helloluthfiii.my.id/aftersales/admin](https://helloluthfiii.my.id/aftersales/admin)  
+    Gunakan akun demo yang tersedia di atas untuk mencoba fitur dari masing-masing role.
 
-        -   No Seri Produk : SN031
-        -   Lokasi : Kecamatan Gamping
-        -   Nama Institusi : PLN Sleman
+-   **Pelanggan** tidak memiliki halaman login, namun dapat mengajukan keluhan melalui form khusus di link berikut:  
+    [https://helloluthfiii.my.id/aftersales/guest](https://helloluthfiii.my.id/aftersales/guest)
 
-            selain data tersebut, bisa bebas anda isi sesuai keinginan anda. silahkan, dapat dimulai dari pengajuan keluhan sebagai [pelanggan](https://helloluthfiii.my.id/aftersales/guest).
+---
 
--   📱 **Aplikasi Android (Mobile)**:
+### 📄 **Contoh Data untuk Mencoba Fitur Pengajuan Keluhan**
+
+Untuk mencoba alur data dari awal (pelanggan mengajukan keluhan) hingga akhir (keluhan ditangani oleh teknisi), pastikan **mengisi data yang valid**. Gunakan data berikut agar keluhan dapat diterima sistem karena datanya sudah tercatat dalam database penjualan:
+
+-   **No Seri Produk:** `SN031`
+-   **Lokasi:** `Kecamatan Gamping`
+-   **Nama Institusi:** `PLN Sleman`
+
+Selain tiga data di atas, isian lainnya bisa diisi bebas sesuai keinginan.
+
+💡 _Anda dapat memulai uji coba alur sistem dengan mengajukan keluhan sebagai pelanggan melalui link berikut:_  
+👉 [Form Keluhan Pelanggan](https://helloluthfiii.my.id/aftersales/guest)
+
+### 🔗 **Aplikasi Android (Mobile)**
+
     -   Untuk dapat menjalankan aplikasi Android, bisa dilihat pada dokumentasi repository aplikasi mobile di [sini](https://github.com/Mhmmadlthfi/teknisi-mobile-app#readme).
     -   Role yang bisa mengakses aplikasi Android: **Teknisi** saja.
 
