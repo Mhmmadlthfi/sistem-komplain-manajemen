@@ -137,8 +137,8 @@ Selain tiga data di atas, isian lainnya bisa diisi bebas sesuai keinginan.
 
 ### 🔗 **Aplikasi Android (Mobile)**
 
-    -   Untuk dapat menjalankan aplikasi Android, bisa dilihat pada dokumentasi repository aplikasi mobile di [sini](https://github.com/Mhmmadlthfi/teknisi-mobile-app#readme).
-    -   Role yang bisa mengakses aplikasi Android: **Teknisi** saja.
+-   Untuk dapat menjalankan aplikasi Android, bisa dilihat pada dokumentasi repository aplikasi mobile di [sini](https://github.com/Mhmmadlthfi/teknisi-mobile-app#readme).
+-   Role yang bisa mengakses aplikasi Android: **Teknisi** saja.
 
 ---
 
