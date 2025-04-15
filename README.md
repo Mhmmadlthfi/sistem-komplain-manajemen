@@ -90,39 +90,9 @@ Aplikasi Android hanya digunakan oleh teknisi sebagai alat bantu ketika berada d
 4. **Form Penanganan**  
    Setelah menyelesaikan penanganan, teknisi mengisi laporan hasil penanganan.
 
-## 📸 Cuplikan Layar
-
-**Login Screen**
-
-<p align="center">
-    <img src="./screenshots/ss1.jpg" width="60%" />
-</p>
-
-**Home Screen**
-
-<p align="center">
-    <img src="./screenshots/ss2.jpg" width="60%" />
-</p>
-
-**List Keluhan**
-
-<p align="center">
-    <img src="./screenshots/ss3.jpg" width="60%" />
-</p>
-
-**Halaman Penanganan**
-
-<p align="center">
-    <img src="./screenshots/ss4.jpg" width="45%" />
-    <img src="./screenshots/ss5.jpg" width="45%" />
-</p>
-
-**Halaman Input Hasil Penanganan**
-
-<p align="center">
-    <img src="./screenshots/ss6.jpg" width="45%" />
-    <img src="./screenshots/ss7.jpg" width="45%" />
-</p>
+📲 **Aplikasi Android (Mobile untuk Teknisi)**  
+Dokumentasi fitur dan cuplikan layar aplikasi mobile dapat dilihat di repo berikut:  
+🔗 [teknisi-mobile-app](https://github.com/Mhmmadlthfi/teknisi-mobile-app)
 
 ---
 
@@ -154,7 +124,7 @@ Berikut adalah informasi login untuk mencoba masing-masing role pada sistem (kec
             selain data tersebut, bisa bebas anda isi sesuai keinginan anda. silahkan, dapat dimulai dari pengajuan keluhan sebagai [pelanggan](https://helloluthfiii.my.id/aftersales/guest).
 
 -   📱 **Aplikasi Android (Mobile)**:
-    -   Untuk dapat menjalankan aplikasi Android, bisa dilihat pada dokumentasi repository aplikasi mobile di [sini](https://github.com/Mhmmadlthfi/sistem-komplain-manajemen-mobile.git#readme).
+    -   Untuk dapat menjalankan aplikasi Android, bisa dilihat pada dokumentasi repository aplikasi mobile di [sini](https://github.com/Mhmmadlthfi/teknisi-mobile-app#readme).
     -   Role yang bisa mengakses aplikasi Android: **Teknisi** saja.
 
 ---
