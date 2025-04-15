@@ -149,6 +149,7 @@
                     <thead>
                         <tr>
                             <th>No</th>
+                            <th>No Seri Produk</th>
                             <th>Nama Produk</th>
                             <th>Tanggal Mulai</th>
                             <th>Tanggal Berakhir</th>
@@ -159,6 +160,7 @@
                         @foreach ($handling->sale->saleDetail as $saleDetail)
                             <tr>
                                 <td>{{ $loop->iteration }}</td>
+                                <td>{{ $saleDetail->serial_number }}</td>
                                 <td>{{ $saleDetail->product->name }}</td>
                                 <td>{{ $saleDetail->warranty->start_date }}</td>
                                 <td>{{ $saleDetail->warranty->end_date }}</td>
