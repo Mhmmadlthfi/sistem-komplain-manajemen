@@ -91,7 +91,7 @@ Aplikasi Android hanya digunakan oleh teknisi sebagai alat bantu ketika berada d
    Setelah menyelesaikan penanganan, teknisi mengisi laporan hasil penanganan.
 
 📲 **Aplikasi Android (Mobile untuk Teknisi)**  
-Dokumentasi fitur dan cuplikan layar aplikasi mobile dapat dilihat di repo berikut:  
+Dokumentasi fitur dan cuplikan layar aplikasi mobile dapat dilihat di repository berikut:  
 🔗 [teknisi-mobile-app](https://github.com/Mhmmadlthfi/teknisi-mobile-app)
 
 ---
