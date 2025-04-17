@@ -60,7 +60,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                     <div class="card-body">
                         <!-- Logo -->
                         <div class="app-brand justify-content-center">
-                            <img alt="logo_arhadi" src="/assets/img/logo/logo_arhadi.png"
+                            <img alt="logo_arhadi" src="{{ asset('assets/img/logo/logo_arhadi.png') }}"
                                 style="width: 150px; height: 60px;">
                         </div>
                         <!-- /Logo -->
