@@ -68,11 +68,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                         <p class="mb-4">Silahkan Login untuk mengelola keluhan dari pelanggan.</p>
 
                         @if (session()->has('loginError'))
-                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                {{ session('loginError') }}
-                                <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                    aria-label="Close"></button>
-                            </div>
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            {{ session('loginError') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                aria-label="Close"></button>
+                        </div>
                         @endif
 
                         <form action="{{ route('login-post') }}" class="mb-3" id="formAuthentication" method="POST">
@@ -84,11 +84,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                                     placeholder="Silahkan masukan no petugas anda.." type="text" inputmode="numeric"
                                     pattern="[0-9]*" />
                                 @if ($errors->has('no_staff'))
-                                    <div class="invalid-feedback">
-                                        {{ $errors->first('no_staff') }}
-                                    </div>
+                                <div class="invalid-feedback">
+                                    {{ $errors->first('no_staff') }}
+                                </div>
                                 @else
-                                    <div class="form-text">No petugas harus berupa angka & berjumlah 5 karakter.</div>
+                                <div class="form-text">No petugas harus berupa angka & berjumlah 5 karakter.</div>
                                 @endif
                             </div>
                             <div class="form-password-toggle mb-3">
